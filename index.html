@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>cloud parallax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- thanks to Online Tutorials https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog-->
+    <div class="banner">
+        <h2 id="text">heaven</h2>
+        <div class="clouds">
+            <img src="cloud1.png" style="--i:1;">
+            <img src="cloud2.png" style="--i:2;">
+            <img src="cloud3.png" style="--i:3;">
+            <img src="cloud4.png" style="--i:4;">
+            <img src="cloud5.png" style="--i:5;">
+            <img src="cloud1.png" style="--i:10;">
+            <img src="cloud2.png" style="--i:9;">
+            <img src="cloud3.png" style="--i:8;">
+            <img src="cloud4.png" style="--i:7;">
+            <img src="cloud5.png" style="--i:6;">
+        </div>
+    </div>
+    <section>
+        <h2>realistic cloud banner parallax effects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam odio dolor, reiciendis est alias maiores quo corporis harum accusamus aliquid omnis minus deserunt, unde voluptatum modi! Veniam eveniet cupiditate quidem quae voluptate odio aspernatur numquam. Cupiditate enim nesciunt itaque magnam neque saepe temporibus rerum necessitatibus eum harum commodi consequuntur eius fugiat asperiores quis ab molestiae, dignissimos, in eos maxime, magni obcaecati vero. Neque et libero ullam totam recusandae distinctio doloribus perspiciatis, culpa eum quisquam atque eveniet molestias, qui dolorum doloremque necessitatibus quo maiores quam voluptates corporis placeat expedita labore veritatis, similique quod. Vero accusamus consequatur assumenda deserunt maxime autem expedita distinctio dignissimos qui dolores placeat cupiditate molestiae nostrum illo reprehenderit est, totam vitae, similique magnam atque, labore beatae soluta quibusdam. Asperiores expedita quas voluptates, ad assumenda culpa quidem, doloribus voluptatibus voluptatem harum ab fugit eaque libero officia, rerum, nisi ipsa. Veritatis optio, ea, id officia cum ratione reprehenderit, accusantium in doloribus ad adipisci quisquam, nam et assumenda ullam error voluptates doloremque omnis facere. Iusto asperiores doloribus suscipit atque ullam id eligendi, laudantium expedita maxime neque consequatur facilis, perferendis fugiat, quam necessitatibus in! Libero debitis qui inventore, et totam quod nulla distinctio hic perspiciatis perferendis, adipisci quo ut, laudantium. Quos, at?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam odio dolor, reiciendis est alias maiores quo corporis harum accusamus aliquid omnis minus deserunt, unde voluptatum modi! Veniam eveniet cupiditate quidem quae voluptate odio aspernatur numquam. Cupiditate enim nesciunt itaque magnam neque saepe temporibus rerum necessitatibus eum harum commodi consequuntur eius fugiat asperiores quis ab molestiae, dignissimos, in eos maxime, magni obcaecati vero. Neque et libero ullam totam recusandae distinctio doloribus perspiciatis, culpa eum quisquam atque eveniet molestias, qui dolorum doloremque necessitatibus quo maiores quam voluptates corporis placeat expedita labore veritatis, similique quod. Vero accusamus consequatur assumenda deserunt maxime autem expedita distinctio dignissimos qui dolores placeat cupiditate molestiae nostrum illo reprehenderit est, totam vitae, similique magnam atque, labore beatae soluta quibusdam. Asperiores expedita quas voluptates, ad assumenda culpa quidem, doloribus voluptatibus voluptatem harum ab fugit eaque libero officia, rerum, nisi ipsa. Veritatis optio, ea, id officia cum ratione reprehenderit, accusantium in doloribus ad adipisci quisquam, nam et assumenda ullam error voluptates doloremque omnis facere. Iusto asperiores doloribus suscipit atque ullam id eligendi, laudantium expedita maxime neque consequatur facilis, perferendis fugiat, quam necessitatibus in! Libero debitis qui inventore, et totam quod nulla distinctio hic perspiciatis perferendis, adipisci quo ut, laudantium. Quos, at?
+        </p>
+    </section>
+    <script>
+        let text = document.getElementById('text');
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            text.style.marginBottom = value * 2 + 'px'
+        })
+
+    </script>
+</body>
+
+</html>
